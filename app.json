@@ -1,0 +1,40 @@
+{
+  "expo": {
+    "name": "Bloodmeter",
+    "slug": "bloodmeter",
+    "version": "2.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/Logo.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/BMlogo.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#F0FAFA"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/Logo.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "package": "com.jeck_m.bloodmeter"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "owner": "jeck_m",
+    "extra": {
+      "eas": {
+        "projectId": "e6ff0902-56bc-4388-8d94-02eadc7f1464"
+      }
+    }
+  }
+}
